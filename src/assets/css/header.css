@@ -1,0 +1,102 @@
+.nav-wrap {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.header {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 35px;
+    font-size: 12px;
+    background-color: #f9f9f9;
+}
+
+.header .send-to {
+    position: absolute;
+    width: 298px;
+    z-index: 99;
+    background-color: #fff;
+    top: 35px;
+    left: 0;
+    border: 1px solid #f2f2f2;
+    padding: 10px 0 10px 10px;
+}
+
+.header .send-to li {
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 0 0 10px;
+}
+
+.login-color {
+    color: #ff2832!important;
+}
+
+#nav a:hover {
+    color: #ff2832;
+}
+
+.header ul li {
+    float: left;
+    line-height: 35px;
+    padding: 0 8px;
+}
+
+.header span {
+    float: left;
+    line-height: 35px;
+    color: #646464;
+}
+
+.header a {
+    color: #646464;
+}
+
+.header .num {
+    float: right;
+    padding-left: 5px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left li {
+    width: 122px;
+}
+
+.nav-left input {
+    border: none;
+    height: 35px;
+    font-size: 12px;
+    background-color: #f9f9f9;
+}
+
+.nav-right {
+    float: right;
+}
+
+.shoppingcart {
+    color: red !important;
+    padding-right: 5px;
+}
+
+.down {
+    padding-left: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(184, 182, 182) !important;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.quit-login {
+    font-size: 12px;
+}

@@ -1,0 +1,158 @@
+    .logo {
+        width: 1200px;
+        height: 100px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .logo-img {
+        float: left;
+    }
+    
+    .logo-search {
+        position: relative;
+        float: left;
+    }
+    
+    .logo-shoppingcart {
+        float: right;
+    }
+    
+    .logo-shoppingcart {
+        margin-top: 20px;
+    }
+    
+    .logo-shoppingcart div {
+        padding: 0 10px;
+        /* width: 85px; */
+        float: left;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        border: 1px solid #dcdcdc;
+    }
+    
+    .logo-shoppingcart div:first-child {
+        background-color: #ff2832;
+    }
+    
+    .logo-shoppingcart div:last-child {
+        background: #f6f6f6;
+    }
+    
+    .logo-shoppingcart div:first-child:hover {
+        background-color: #f6f6f6;
+    }
+    
+    .logo-shoppingcart div:first-child a {
+        color: #fff;
+    }
+    
+    .logo-shoppingcart div:last-child a {
+        color: #999;
+    }
+    
+    .logo-shoppingcart div:hover a {
+        color: #ff2832;
+    }
+    
+    .logo-shoppingcart div:hover .shoppingcart {
+        color: #ff2832 !important;
+    }
+    
+    .logo-search {
+        top: 20px;
+        font-size: 12px;
+    }
+    
+    .logo-search form {
+        height: 36px;
+    }
+    
+    .logo-search input {
+        width: 410px;
+        height: 36px;
+        border: 2px solid #ff2832;
+        padding: 9px 0 9px 10px;
+        float: left;
+        border-right: 0px solid #dedede;
+    }
+    
+    .logo-search .sort {
+        font-size: 16px;
+        float: right;
+    }
+    /* .logo-search span:first-child {} */
+    
+    .sort input {
+        display: block;
+        height: 36px;
+        width: 108px;
+        line-height: 36px;
+        border: 2px solid #ff2832;
+        border-left: 0px solid #dedede;
+        background: #f6f6f6;
+        color: #969696;
+    }
+    
+    .sort i {
+        margin: 40px 10px 0 0;
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    
+    .sort i {
+        font-size: 12px;
+    }
+    
+    .logo-search button {
+        width: 48px;
+        height: 36px;
+        position: absolute;
+        right: -48px;
+        background-color: #ff2832;
+    }
+    
+    .logo-search button i {
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .logo-search a:hover {
+        color: #ff2832;
+        text-decoration: underline;
+    }
+    
+    .search-hot {
+        margin-top: 5px;
+        text-align: left;
+        float: left;
+    }
+    
+    .search-hot a {
+        margin-right: 15px;
+        color: #969696;
+    }
+    
+    .search-hot a:last-child {
+        display: inline-block;
+        text-align: right;
+    }
+    
+    .advs-search {
+        display: inline-block;
+        margin-top: 5px;
+        color: #969696;
+        position: relative;
+        left: 55px;
+    }
+    
+    .logo-cart .shoppingcart {
+        color: #fff !important;
+        font-size: 20px;
+        font-weight: bold;
+        vertical-align: middle;
+    }

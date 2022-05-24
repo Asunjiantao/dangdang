@@ -1,0 +1,181 @@
+button,
+input {
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.login-bottom {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.login-left {
+    padding-right: 100px;
+}
+
+.login-left img {
+    width: 650px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.login input {
+    padding-left: 10px;
+    width: 308px;
+    height: 52px;
+    background: rgba(235, 234, 234, 0.3);
+    margin: 15px 0;
+}
+
+.loginTo {
+    margin: 20px 0;
+    width: 420px;
+    height: 406px;
+    box-shadow: -5px -5px 10px 10px rgba(236, 235, 235, 0.4);
+    border-radius: 10px 10px;
+}
+
+.login-to {
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.spacing {
+    letter-spacing: 20px;
+    margin-right: -18px;
+}
+
+.login-user {
+    display: flex;
+    justify-content: center;
+}
+
+.login-user h3 {
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.login-user h3:first-child {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.login-user h3:last-child {
+    color: #908e8f;
+    font-weight: 400;
+}
+
+.login-to {
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    background-color: #fe5447;
+    font-size: 18px;
+    color: #fff;
+}
+
+.content {
+    font-size: 13px;
+    color: #908e8f;
+}
+
+.loginTo {
+    position: relative;
+}
+
+.code-login {
+    display: none;
+}
+
+.code {
+    position: relative;
+}
+
+.send {
+    position: absolute;
+    right: 65px;
+    top: 32px;
+    font-size: 14px;
+    color: #fe5447;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.quitcode {
+    display: none;
+}
+
+.code-img {
+    position: absolute;
+    right: 0;
+}
+
+.code-img img {
+    width: 79px;
+    height: 79px;
+}
+
+.login-top {
+    width: 1200px;
+    margin: 40px auto;
+    height: 80px;
+    display: flex;
+    align-self: center;
+    font-size: 14px;
+    color: #787878;
+    text-align: right;
+}
+
+.login-top div:nth-child(2) {
+    flex: 1;
+}
+
+.login-top p {
+    text-align: right;
+    margin-bottom: 6px;
+}
+
+.login-top p img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.content a {
+    color: #000;
+}
+
+.register {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.register a {
+    color: #626262;
+}
+
+.register span {
+    padding: 0px 15px;
+}
+
+.login-footer {
+    height: 64px;
+    background: rgba(249, 248, 248, .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.login-footer a {
+    margin: 0 16px;
+}
+
+.login-footer img {
+    width: 28px;
+    height: 28px;
+}
